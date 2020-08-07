@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/textAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/make_reservation"
+            android:textSize="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"/>
+
+        <!-- Text Fields -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_info"
+            android:textSize="17dp"
+            android:textColor="@color/button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input"/>
+
+        <EditText
+            android:id="@+id/editTextTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone_number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/table"
+            android:textSize="17dp"
+            android:textColor="@color/button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:hint="@string/size"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input"/>
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/editTextDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_a_day"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"
+            />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_time"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/smoke"
+            android:textColorHint="@color/white"
+            android:textSize="17dp"
+            android:buttonTint="@color/white"/>
+
+        <!-- Buttons -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/button"
+                android:text="@string/reset"
+                android:background="@drawable/button_reset"
+                android:textSize="17dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/buttonReserve"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/white"
+                android:text="@string/reserve"
+                android:textSize="17dp"
+                android:background="@drawable/button"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

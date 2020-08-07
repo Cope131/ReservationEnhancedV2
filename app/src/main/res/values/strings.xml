@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Reservation_Enhanced_v2</string>
+
+    <!-- title -->
+    <string name="make_reservation">Make Reservation</string>
+
+    <!-- hints -->
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="size">No. of People</string>
+    <string name="smoke">Smoking Area</string>
+    <string name="select_a_day">Select Day</string>
+    <string name="select_time">Select Time</string>
+
+    <!-- buttons -->
+    <string name="reserve">Reserve</string>
+    <string name="reset">Reset</string>
+
+    <!-- Labels -->
+    <string name="personal_info">Personal Info</string>
+    <string name="table">Table</string>
+
+    <!-- Dialog Message -->
+    <string name="confirm_message"><b>Confirm Reservation Details</b></string>
+    <string name="res_confirmed">Reservation Confirmed</string>
+    <string name="res_cancelled">Reservation Cancelled</string>
+    <string name="confirmButton">confirm</string>
+    <string name="cancelButton">cancel</string>
+    <string name="required_warning">Please fill out all fields</string>
+    <string name="invalid_warning">Enter Valid Phone Number or Size</string>
+
+</resources>
